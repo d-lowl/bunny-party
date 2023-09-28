@@ -1,4 +1,6 @@
 # Bunny Party Bouncer Mini-Project
+IMPORTANT TLDR: the main branch of this repo does not contain the results of relabeling, to see the final results, go to `demonstration` branch, and specifically to [demosntration notebook there](https://github.com/d-lowl/bunny-party/blob/demonstration/demonstration.ipynb)
+
 ## Project overview
 PUBLIC NOTE: this project (and the task for it) is reworked from an exercise that I could not make public. Hence, I've reworked the dataset and the task, while keeping the implementation more or less the same. I will try marking clearly (with "PUBLIC NOTE") where the decisions were made due to the original task restrictions.
 
@@ -10,6 +12,8 @@ Project structure:
 * `demonstration.ipynb` -- the demonstration notebook, which walks through the process of model training, data relabeling, and then retraining (doing evaluation, and exploring recorded experiments in between)
 * `data/` -- DVC-managed data directory
 * `models` -- Keras artifacts are saved here (ignored by git)
+
+The versioned data is hosted on [DagsHub](https://dagshub.com/d-lowl/bunny-party)
 
 ## Task
 PUBLIC NOTE: The following task is adapted from an exercise that I have done before, which I cannot publicise.
@@ -37,6 +41,9 @@ Write a notebook, that will do the following:
 Clearly separate the ML-related implementation and high-level logic (i.e. the server code and the notebook). Cover the code with tests.
 
 PUBLIC NOTE: The original task was talking about "going the extra mile", for which I added the experiment tracking with MLFlow and data versioning with DVC (as it sounds important to version data when we do data relabeling).
+
+## The Final Demonstration Notebook
+There's a notebook in a separate branch that shows the process outlined above in the cell outputs, as well as the data is in `demonstration` branch. See the [demosntration notebook there](https://github.com/d-lowl/bunny-party/blob/demonstration/demonstration.ipynb) specifically.
 
 ## Prerequisites
 * Python
