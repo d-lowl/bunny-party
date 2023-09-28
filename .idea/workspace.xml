@@ -5,41 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21b59300-d29c-408d-93f3-74362626c113" name="Changes" comment="Add embedding unit tests">
-      <change afterPath="$PROJECT_DIR$/.dvcignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.python-version" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/class_name_to_id_mapping.txt.dvc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/test.dvc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/train.dvc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_preparation/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_preparation/data/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_preparation/data/original/alvan-nee-brFsZ7qszSY-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_preparation/data/original/charlesdeluvio-Mv9hjnEUHR4-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_preparation/data/original/erik-jan-leusink---SDX4KWIbA-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_preparation/data/original/janan-lagerwall-302xfiIGOfE-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_preparation/data/original/lovely-pet-portrait-isolated.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_preparation/data/original/marcus-wallis-4zfacTKyZ7w-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_preparation/data/original/melanie-kreutz-IFnknR2Mv5o-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_preparation/data/original/milli-2l0CWTpcChI-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_preparation/data/original/satyabratasm-u_kMWN-BWyU-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_preparation/prepare_dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demonstration.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/dvc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/embedding.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_dvc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_embedding.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demonstration.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/demonstration.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,28 +34,30 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2UHqO69IyZyO9tb32ajbk9th9Ea" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TF_FMT&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/dlowl/git/tenyks-ex/data&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Jupyter Settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TF_FMT": "false",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/dlowl/git/tenyks-ex/data",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "Jupyter Settings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data" />
@@ -219,6 +188,7 @@
       <workItem from="1695920940154" duration="47000" />
       <workItem from="1695920994935" duration="143000" />
       <workItem from="1695921139518" duration="50000" />
+      <workItem from="1695921201325" duration="1466000" />
     </task>
     <task id="LOCAL-00001" summary="Initial server, ml training and dataset">
       <created>1692714225734</created>
