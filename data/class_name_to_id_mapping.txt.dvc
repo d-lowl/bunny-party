@@ -1,0 +1,5 @@
+outs:
+- md5: f75704db88c160f8949a91c734150d16
+  size: 41
+  hash: md5
+  path: class_name_to_id_mapping.txt

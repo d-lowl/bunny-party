@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "bunny-party"
+version = "0.1.0"
+description = ""
+authors = ["D. Lowl <d.lowl@d-lowl.space>"]
+readme = "README.md"
+packages = [{include = "server"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10.12,<3.11"
+fastapi = "^0.101.1"
+uvicorn = {extras = ["standard"], version = "^0.23.2"}
+jupyter = "^1.0.0"
+tensorflow = "^2.13.0"
+pytest = "^7.4.0"
+matplotlib = "^3.7.2"
+mlflow = "^2.6.0"
+dvc = "^3.15.3"
+tensorflow-transform = "^1.14.0"
+scikit-image = "^0.21.0"
+gitpython = "^3.1.32"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
