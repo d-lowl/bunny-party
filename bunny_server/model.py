@@ -8,8 +8,8 @@ from keras import layers, Sequential, losses, Model
 from keras.src.callbacks import History
 from keras.models import load_model
 
-from server.dataset import load_tf_dataset
-from server.dvc import DVCFileVersion
+from bunny_server.dataset import load_tf_dataset
+from bunny_server.dvc import DVCFileVersion
 
 MODEL_PATH = "models/classifier.keras"
 

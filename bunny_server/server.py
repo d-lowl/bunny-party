@@ -4,8 +4,8 @@ import uvicorn
 from fastapi import FastAPI
 from pydantic import BaseModel
 
-from server.embedding import TerminatorEmbedding
-from server.model import run_model_training_experiment, get_model_evaluation
+from bunny_server.embedding import TerminatorEmbedding
+from bunny_server.model import run_model_training_experiment, get_model_evaluation
 
 app = FastAPI()
 embedding = TerminatorEmbedding("train")

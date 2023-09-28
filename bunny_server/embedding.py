@@ -6,7 +6,7 @@ from skimage import io
 from sklearn.decomposition import PCA
 from sklearn.metrics import euclidean_distances
 
-from server.dataset import load_class_names, load_images, relabel_image_in_dataset
+from bunny_server.dataset import load_class_names, load_images, relabel_image_in_dataset
 
 
 def get_vector_database(filepaths: List[str], embedded_images: np.ndarray, class_names: Dict[str, str]) -> pd.DataFrame:

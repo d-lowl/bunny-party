@@ -1,7 +1,7 @@
 import os.path
 from unittest import mock
 
-from server.dataset import relabel_image_in_dataset, load_tf_dataset, load_class_names, load_images
+from bunny_server.dataset import relabel_image_in_dataset, load_tf_dataset, load_class_names, load_images
 
 
 def test_load_dataset():

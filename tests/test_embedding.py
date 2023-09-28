@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 import pytest
 
-from server.embedding import get_vector_database, TerminatorEmbedding
+from bunny_server.embedding import get_vector_database, TerminatorEmbedding
 
 
 @pytest.fixture

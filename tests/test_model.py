@@ -3,7 +3,7 @@ from unittest import mock
 import pytest
 import tensorflow_datasets as tfds
 
-from server.model import get_untrained_model, TerminatorClassifier
+from bunny_server.model import get_untrained_model, TerminatorClassifier
 
 
 @pytest.fixture

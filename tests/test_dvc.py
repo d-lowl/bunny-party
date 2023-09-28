@@ -4,7 +4,7 @@ from contextlib import nullcontext as does_not_raise
 
 import pytest
 
-from server.dvc import DVCFileVersion
+from bunny_server.dvc import DVCFileVersion
 
 
 @pytest.fixture
